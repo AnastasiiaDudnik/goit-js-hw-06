@@ -23,10 +23,6 @@ button {
   cursor: pointer;
 }
 
-li {
-  list-style: none;
-}
-
 .gallery {
   display: flex;
   gap: 10px;
