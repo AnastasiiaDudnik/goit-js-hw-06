@@ -10,6 +10,8 @@ function onBlur(event) {
 
   if (current.value.length === Number(current.dataset.length)) {
     input.classList.add("valid");
+    input.classList.remove("invalid");
   }
+  input.classList.remove("valid");
   input.classList.add("invalid");
 }
